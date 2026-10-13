@@ -1,0 +1,83 @@
+[
+  {
+    "id": "public_only",
+    "kind": "projection",
+    "fields": []
+  },
+  {
+    "id": "choice",
+    "kind": "projection",
+    "fields": [
+      "choice"
+    ]
+  },
+  {
+    "id": "choice_confidence",
+    "kind": "projection",
+    "fields": [
+      "choice",
+      "confidence"
+    ]
+  },
+  {
+    "id": "choice_max_probability",
+    "kind": "projection",
+    "fields": [
+      "choice",
+      "max_probability"
+    ]
+  },
+  {
+    "id": "choice_margin",
+    "kind": "projection",
+    "fields": [
+      "choice",
+      "margin"
+    ]
+  },
+  {
+    "id": "choice_top2_ids",
+    "kind": "projection",
+    "fields": [
+      "choice",
+      "top2_ids"
+    ]
+  },
+  {
+    "id": "choice_top2_scores",
+    "kind": "projection",
+    "fields": [
+      "choice",
+      "top2"
+    ],
+    "renormalize": false,
+    "omitted": "absent_not_zero"
+  },
+  {
+    "id": "full_probabilities",
+    "kind": "projection",
+    "fields": [
+      "choice",
+      "probabilities"
+    ]
+  },
+  {
+    "id": "full_native",
+    "kind": "projection",
+    "fields": [
+      "choice",
+      "probabilities",
+      "confidence"
+    ]
+  },
+  {
+    "id": "backend_action_only",
+    "kind": "backend_execution",
+    "uses_policy": "full_native"
+  },
+  {
+    "id": "oracle_T_only",
+    "kind": "evaluation_reference",
+    "deployability": "not_assumed"
+  }
+]

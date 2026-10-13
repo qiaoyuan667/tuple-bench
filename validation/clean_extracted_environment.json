@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "installed_from_extracted_archives": true,
+  "original_work_directory_required": false,
+  "primary_recovery_estimates": 45,
+  "defense_recovery_estimates": 15,
+  "coarse_accuracy_estimates": 9,
+  "primary_cost_estimates_and_intervals": 2430,
+  "defense_cost_estimates_and_intervals": 810,
+  "refusal_models": 9,
+  "API_calls": 0,
+  "elapsed_seconds": 255.86284525017254,
+  "dependencies": {
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1",
+    "jsonschema": "4.26.0",
+    "pytest": "9.1.1"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "primary_recoveries": 45,
+  "defense_recoveries": 15,
+  "refusal_models": 9,
+  "primary_domain_cost_rows": 2430,
+  "defense_domain_cost_rows": 810,
+  "strict_policy_tests": 15552,
+  "API_calls": 0,
+  "elapsed_seconds": 267.26763358316384,
+  "all_recovery_values_verified": true
+}

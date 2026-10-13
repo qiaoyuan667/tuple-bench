@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "model": "typesafe",
+  "domain": "delivery_operations",
+  "primary_refitted_views": 5,
+  "strict_refitted_recovery": 0.53125,
+  "all_fresh_recoveries_match_frozen_replay": true,
+  "API_calls": 0
+}

@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "files_scanned": 729,
+  "numeric_arrays_checked": 30473,
+  "local_absolute_paths": 0,
+  "researcher_identifiers": 0,
+  "agent_metadata": 0,
+  "credential_values": 0,
+  "generator_code_included": false,
+  "subprocess_or_cli_invocations": 0,
+  "raw_headers_or_service_logs_included": false,
+  "archive_metadata_normalized": true
+}

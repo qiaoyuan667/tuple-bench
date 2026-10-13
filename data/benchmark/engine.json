@@ -1,0 +1,33 @@
+{
+  "schema_version": "2.0",
+  "seed": 20261009,
+  "utility_regularization_C": [
+    0.1,
+    1.0,
+    10.0
+  ],
+  "privacy_regularization_C": [
+    0.1,
+    1.0,
+    10.0
+  ],
+  "privacy_feature_families": [
+    "linear",
+    "quadratic"
+  ],
+  "posterior_floor": 1e-08,
+  "probability_sum_tolerance": 1e-06,
+  "bootstrap_resamples": 2000,
+  "confidence_level": 0.95,
+  "utility_tie_selection": "validation_cost_then_fixed_candidate_order",
+  "privacy_tie_selection": "validation_accuracy_then_log_loss_then_fixed_candidate_order",
+  "cost_noninferiority_margin": 0.1,
+  "test_selection_policy": "fit_train_select_validation_apply_test_once",
+  "incomplete_default": "fail",
+  "error_fallback": "trusted_review_cost_2",
+  "inference_target": "conditional on fixed fits, observed responses and declared source families",
+  "privacy_scores_are": "decoder outcomes, not mutual_information_or_guaranteed_privacy",
+  "feature_policy": "same public X/B across release alternatives; no IDs, truth, hashes, or private report",
+  "resampling_unit": "rendering_family_id",
+  "dataset_status": "individual_event_regeneration_candidate_pending_full_review"
+}

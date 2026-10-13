@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "unit_and_integration_tests": 92,
+  "independent_environment_installation": "passed",
+  "network_model_calls": 0,
+  "test_environment_python": "3.14.7",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1",
+  "scikit_learn": "1.9.1",
+  "tests_from_merged_zip_extraction": 92,
+  "test_status_from_extracted_archives": "passed"
+}

@@ -1,0 +1,6 @@
+{
+  "status": "passed",
+  "primary_cost_estimates_and_intervals": 2430,
+  "defense_cost_estimates_and_intervals": 810,
+  "absolute_tolerance": 1e-12
+}
