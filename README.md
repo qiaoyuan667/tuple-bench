@@ -29,6 +29,13 @@ the routing, review, and clarification costs they support.
 
 ## The benchmark at a glance
 
+![Paper overview of TUPLE-Bench: a refusal probe, a coarse-to-fine release-view audit, and workflow-constrained privacy quantization.](assets/figures/paper-overview.png)
+
+*Paper Figure 1. Trade-off curves are illustrative; utility is measured by
+downstream workflow cost.*
+
+### Paired cases and release views
+
 ![Paired worlds share public context and authorized category, differ in the protected mechanism, and yield several release views from one saved response. Each view is audited for workflow cost and conditional secret recovery.](assets/figures/overview.png)
 
 1. **Keep the authorized answer fixed.** Two worlds share public context,
@@ -88,7 +95,11 @@ The no-output baseline is **50%**. Full native raises recovery over choice by
 **27 model–task comparisons** under the authored profile. The cost comparison
 is descriptive; it does not assert that every contrast is statistically significant.
 
-![Conditional secret recovery across five release views for nine models, with fixed-fit source-family bootstrap intervals.](assets/figures/recovery.png)
+![Paper Figure 4: test coarse accuracy and conditional fine-mechanism recovery across five release views for nine models, shown as horizontal bars with bootstrap intervals.](assets/figures/recovery.png)
+
+*Paper Figure 4. Coarse-accuracy bars start at 80%; recovery bars start at the
+50% no-output baseline. Whiskers show 95% pair-clustered bootstrap intervals.
+All release views use the same saved response.*
 
 The separate whole-dataset refusal probe recovers the protected mechanism in
 **91.88–99.93%** of final valid responses through direct selections or residual
@@ -254,15 +265,15 @@ without new-source independent confirmation.
 
 ## Citation
 
-To reference the software and frozen dataset release:
+If you use TUPLE-Bench in your research, please cite:
 
 ```bibtex
-@misc{tuplebench2026,
-  title = {TUPLE-Bench: Typed Decision Privacy--Utility Benchmark},
-  author = {{TUPLE-Bench contributors}},
+@misc{yang2026tuplebench,
+  title = {{TUPLE-Bench}: Evaluating and Mitigating Privacy-Utility Trade-offs in Typed Decision Models},
+  author = {Yang, Yiqu and Zheng, Qiaoyuan and Tian, Yang and Fan, Yu and Ash, Elliott},
   year = {2026},
   url = {https://github.com/qiaoyuan667/tuple-bench}
 }
 ```
 
-This entry identifies the repository and dataset release.
+Download [BibTeX](CITATION.bib), or use GitHub’s “Cite this repository” button.

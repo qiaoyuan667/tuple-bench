@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+message: "If you use TUPLE-Bench, please cite the paper listed in preferred-citation."
+type: software
+title: TUPLE-Bench
+authors:
+  - family-names: Yang
+    given-names: Yiqu
+  - family-names: Zheng
+    given-names: Qiaoyuan
+  - family-names: Tian
+    given-names: Yang
+  - family-names: Fan
+    given-names: Yu
+  - family-names: Ash
+    given-names: Elliott
+repository-code: https://github.com/qiaoyuan667/tuple-bench
+url: https://github.com/qiaoyuan667/tuple-bench
+preferred-citation:
+  type: generic
+  title: "TUPLE-Bench: Evaluating and Mitigating Privacy-Utility Trade-offs in Typed Decision Models"
+  authors:
+    - family-names: Yang
+      given-names: Yiqu
+    - family-names: Zheng
+      given-names: Qiaoyuan
+    - family-names: Tian
+      given-names: Yang
+    - family-names: Fan
+      given-names: Yu
+    - family-names: Ash
+      given-names: Elliott
+  year: 2026
+  url: https://github.com/qiaoyuan667/tuple-bench

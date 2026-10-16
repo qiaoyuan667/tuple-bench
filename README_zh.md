@@ -13,7 +13,13 @@ TUPLE-Bench 同时测量这些字段带来的**额外秘密恢复能力**和**�
 | ---: | ---: | ---: | ---: | ---: | ---: |
 | 720 | 1,440 | 3 | 9 | 5 | 18 |
 
-![评测流程](assets/figures/overview.png)
+![论文 Figure 1：拒绝探针、粗到细发布视图审计和工作流约束隐私量化](assets/figures/paper-overview.png)
+
+*论文 Figure 1。权衡曲线仅作示意，效用通过下游业务成本衡量。*
+
+### 配对案例与发布视图结构
+
+![配对案例和同响应发布视图的评测结构](assets/figures/overview.png)
 
 ## 评测设计
 
@@ -89,3 +95,18 @@ evaluate_refusal(root=".", output="results/refusal")
 
 数据为 AI 编写的虚构案例，保留既有审查疑点及跨来源关联记录；成本和检查来自模拟器。
 测试数据曾用于开发讨论，没有独立新来源确认集。结果不代表实际事故分布、最优攻击能力或形式化隐私保证。
+
+## 引用
+
+如果在研究中使用 TUPLE-Bench，请引用：
+
+```bibtex
+@misc{yang2026tuplebench,
+  title = {{TUPLE-Bench}: Evaluating and Mitigating Privacy-Utility Trade-offs in Typed Decision Models},
+  author = {Yang, Yiqu and Zheng, Qiaoyuan and Tian, Yang and Fan, Yu and Ash, Elliott},
+  year = {2026},
+  url = {https://github.com/qiaoyuan667/tuple-bench}
+}
+```
+
+可下载 [BibTeX](CITATION.bib)，或使用 GitHub 的 “Cite this repository” 功能。
