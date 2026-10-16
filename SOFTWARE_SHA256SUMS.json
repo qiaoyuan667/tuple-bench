@@ -1,6 +1,7 @@
 {
   ".gitignore": "4fca7f41f0f916e7aa535fbb41f5ce07b6b7f1639a85de992facc4bd5d93de7c",
-  "README.md": "60a2ea65bc1c0f035ce9aa648222f337b0ef876f791560f0e5f492e053d4a40b",
+  "README.md": "eb2d2c89ac3b7878d78ff428c54c7a2068dade9820e39c2add2d3968b08b3996",
+  "README_zh.md": "44e1fb9e63f9a8237b8efb52de37f4ff13965a3a1a86e2076690ecbb2daf67a9",
   "artifacts/arrays/bank_001.npz": "e67125a3a99101ae86643799f434884dadce8b9479d5a8823394000b5106c626",
   "artifacts/arrays/bank_002.npz": "606d187d6b7fcd2ea5e326fd94f9621c35c5e2da2114c8fddb53c55fc335a7ef",
   "artifacts/arrays/bank_003.npz": "c222fb77e3c2cc60c9fd5a1721512a2874d1ac5c0880202d4b90fc4b78fa8b47",
@@ -650,7 +651,14 @@
   "artifacts/temperature_selection/typesafe/delivery_operations.json": "d6e5ee38993dc309d154208d01e8d38c3625880bb9ed92ebd11d3312eb75a09e",
   "artifacts/temperature_selection/typesafe/equipment_service.json": "bd8e7de371874d38043a57a7c2f941df8d7a1f10086d409e4e0772915f121b9d",
   "artifacts/temperature_selection/typesafe/it_operations.json": "c3243a17d8f1a477f9b5f9140e995b6d8d907a9b08ce399149145101d090300a",
-  "pyproject.toml": "7feff5c99264226416384962cb92766342494785fdc8d1f616dd040dd86bf123",
+  "assets/figures/overview.png": "40d41a8942a0f0950f5bcfe7000c328e7c4f5c2ad4e8a0ff458c87f3ee061009",
+  "assets/figures/recovery.png": "430ce310880ab175f43b685158606872d754524a86fcd61e9e27ab0dffaf1215",
+  "docs/benchmark.md": "fdd1ae1153c3b0195e3249bd2926ec681c3da36a5ed8f87b6d3e922b1d5f90de",
+  "docs/model-api.md": "325dcb90d0c2de15d29ea6f50b90492e64c6cd4679c12cbe50462edc5e53c09a",
+  "docs/release-history.md": "c4537f0acce0a6f18578afb11ae33c7a2684ff1c47ce46b81db798d82533d47d",
+  "docs/reproduce.md": "c863c8641ba2cd37ebbddb8ec574444052eaf84bdcdd4bb8b318f2235ee2e462",
+  "docs/results.md": "717813b345bfebb684daad79b7b096312ecb793a0b250db10837339a2cbc904e",
+  "pyproject.toml": "624c00853ffe296ca886f3bda43c93d702c1ba0c66fb3ecb83ae6e1974a832f5",
   "src/tuplebench/__init__.py": "24bb0add26e4ad1730ecdc7da4396c44031fa090875fc9bfef3f92da24e88e71",
   "src/tuplebench/api.py": "1de90d0c7334679fff1f5e8a76b04b4ca29d40a942bc2e363e50f41949da962c",
   "src/tuplebench/attacks/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
@@ -690,5 +698,6 @@
   "validation/environment.json": "bdb82581dcf61bd1cd1842293002d482e4b5fb54e01eefe5c270adecaa12b821",
   "validation/fresh_fitting.json": "8da6567021593a204201039d050b5fdcedd277c8b06963f3b20cbf19c4893853",
   "validation/full_replay.json": "324898f86cc2c04507a97b6c0114c40cf350aaa0a0944e323adf088357ebe298",
+  "validation/publication.json": "4f1f3dbc43fa255bf1bfd827aa749ff24d50fa73dc3040e03b36a7e87911a95f",
   "validation/tests.json": "0bf8b8fe75cf8f3356592f236d3bc3d3fb943cdf3110583207da02dcb7c0dfd8"
 }

@@ -4,10 +4,16 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "tuple-bench"
-version = "1.0.0"
+version = "1.0.1"
 description = "Evaluation APIs and frozen database for typed decision privacy and utility"
+maintainers = [{name = "Qiaoyuan Zheng"}]
 requires-python = ">=3.10"
 dependencies = ["numpy>=1.24,<3", "scipy>=1.10,<2", "scikit-learn>=1.4,<2", "jsonschema>=4.18,<5"]
+
+[project.urls]
+Repository = "https://github.com/qiaoyuan667/tuple-bench"
+Dataset = "https://huggingface.co/datasets/Qiaoyuan/TUPLE-Bench"
+Issues = "https://github.com/qiaoyuan667/tuple-bench/issues"
 
 [project.optional-dependencies]
 test = ["pytest>=8,<10"]

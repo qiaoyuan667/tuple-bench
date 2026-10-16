@@ -1,0 +1,17 @@
+{
+  "release": "v1.0.1",
+  "status": "passed",
+  "dataset_version": "1.0.0",
+  "evaluation_implementation_unchanged": true,
+  "frozen_models_native_responses_and_splits_unchanged": true,
+  "unit_and_integration_tests": 92,
+  "Python_documentation_examples_parsed": 17,
+  "broken_local_documentation_links": 0,
+  "viewer_worlds_round_trip_verified": 1440,
+  "viewer_splits": {
+    "train": 864,
+    "validation": 288,
+    "test": 288
+  },
+  "model_API_calls": 0
+}
