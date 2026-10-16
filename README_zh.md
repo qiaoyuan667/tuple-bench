@@ -102,8 +102,10 @@ evaluate_refusal(root=".", output="results/refusal")
 
 ```bibtex
 @misc{yang2026tuplebench,
-  title = {{TUPLE-Bench}: Evaluating and Mitigating Privacy-Utility Trade-offs in Typed Decision Models},
-  author = {Yang, Yiqu and Zheng, Qiaoyuan and Tian, Yang and Fan, Yu and Ash, Elliott},
+  title = {{TUPLE-Bench}: Evaluating and Mitigating Privacy-Utility
+           Trade-offs in Typed Decision Models},
+  author = {Yang, Yiqu and Zheng, Qiaoyuan and Tian, Yang
+            and Fan, Yu and Ash, Elliott},
   year = {2026},
   url = {https://github.com/qiaoyuan667/tuple-bench}
 }
